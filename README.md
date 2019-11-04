@@ -1,2 +1,8 @@
 # bs-blackstar
-Project cross-education WU19, DD19, CGD19.
+
+# Assignment
+* Create a landingpage for a Capsule Buggy. 
+
+
+
+
