@@ -5,6 +5,9 @@
 # Assignment
 * Create a landingpage for a Capsule Buggy. 
 
+# Resources
+* https://www.w3schools.com/howto/howto_css_parallax.asp
+
 
 
 
