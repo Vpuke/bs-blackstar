@@ -7,6 +7,7 @@
 
 # Resources
 * https://www.w3schools.com/howto/howto_css_parallax.asp
+* https://www.youtube.com/watch?v=DZg6UfS5zYg
 
 
 
