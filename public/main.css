@@ -2,20 +2,21 @@
 	box-sizing:border-box;
 	padding:0;
     margin:0;
-    color:white;
 }
+
+/* LANDING PAGE */
 
 .section-1{
     height: 100vh;
-    width: 100vh;
-    max-width: 100%;
+    width: 100%;
 }
 
 nav{
     position:fixed;
     height:60px;
     background-color: black;
-    opacity:0.1;
+    color: white;
+    opacity:0.3;
     width:100%;
 }
 
@@ -26,8 +27,37 @@ nav ul{
 }
 
 nav a, li {         
-list-style:none;
-text-decoration:none;
+list-style: none;
+text-decoration: none;
 }
 
-/* HAMBURGER-MENU */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.section-1 h2 {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.section-1 h2 span {
+    display: block;
+}
+
+.section-1 h4 {
+    margin-top: 50vh;
+}
+
+.section-1 h1 {
+    margin-top: 2vh;
+}
+
+/* SELLING POINT - COLOR TYPES */
+
+.section-2 {
+
+}
