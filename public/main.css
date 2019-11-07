@@ -15,16 +15,19 @@ nav{
     position:fixed;
     height:60px;
     background-color: black;
-    opacity:0.3;
+    opacity:0.1;
     width:100%;
 }
 
 nav ul{
     display:flex;
     justify-content: space-evenly;
+    padding-top:20px;
 }
 
 nav a, li {         
 list-style:none;
 text-decoration:none;
 }
+
+/* HAMBURGER-MENU */
