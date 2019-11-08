@@ -222,9 +222,11 @@ body{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    overscroll-behavior-x: auto;
     -webkit-overflow-scrolling: touch;
     -moz-overflow-scrolling: touch;
     scrollbar-width: none;
+    scroll-snap-type: x mandatory;
 }
 
 .color-preview-card {
@@ -233,4 +235,5 @@ body{
     flex: 0 0 auto;
     background-color: tomato;
     border: 2px solid black;
+    scroll-snap-align: start;
 }
