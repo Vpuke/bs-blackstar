@@ -1,7 +1,22 @@
+/* FONTS */
+
+@font-face {
+    font-family: aktivgrotesk-bold;
+    src: url("/fonts-grotesk/AktivGrotesk-Bold.otf");
+    font-family: aktivgrotesk-light;
+    src: url("/fonts-grotesk/AktivGrotesk-Light.otf");
+    font-family: aktivgrotesk-medium;
+    src: url("/fonts-grotesk/AktivGrotesk-Medium.otf");
+    font-family: aktivgrotesk-regular;
+    src: url("/fonts-grotesk/AktivGrotesk-Regular.otf");
+  }
+
+
 * {
 	box-sizing:border-box;
 	padding:0;
     margin:0;
+   
 }
 
 /* APPLIES TO ALL SECTIONS */
@@ -42,6 +57,8 @@ body{
     width:50px;
     height:50px;
     opacity:0;
+  
+
 }
 
 /* COLOR hamburger container here*/
@@ -187,10 +204,25 @@ body{
 .nav-logo{
     width:50px;
     
+    
+    
 }
+
+.reserve-button{
+    font-family: aktivgrotesk-light;
+    text-decoration:none;
+    color:black;
+    text-transform: uppercase;
+    
+ 
+}
+
 
 /* CONTENT */
 
+main{
+    font-family: aktivgrotesk-regular;
+}
 
 .section-1 main {
     display: flex;
@@ -206,6 +238,7 @@ body{
     flex-direction:column;
     align-items:center;
     margin-top: 50vh;
+    font-family: aktivgrotesk-light;
 }
 
 
