@@ -18,102 +18,30 @@
     width: 100%;
 }
 
-nav{
-    position:fixed;
-    height:60px;
-    background-color: black;
-    color: white;
-    opacity:0.3;
-    width:100%;
-}
 
-nav ul{
-    display:flex;
-    justify-content: space-evenly;
-    padding-top:20px;
-}
-
-nav a, li {         
-list-style: none;
-text-decoration: none;
-}
-
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-.section-1 h2 {
-    margin-top: 15vh;
-    text-align: center;
-}
-
-.section-1 h2 span {
-    display: block;
-}
-
-.section-1 h4 {
-    margin-top: 50vh;
-}
-
-.section-1 h1 {
-    margin-top: 2vh;
-}
-
-/* SELLING POINT - COLOR TYPES */
-
-.section-2 {
-    height: 100vh;
-    width: 100vw;
-}
-
-.scrolling-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -moz-overflow-scrolling: touch;
-    scrollbar-width: none;
-}
-
-.color-preview-card {
-    height: 100vh;
-    width: 100vw;
-    flex: 0 0 auto;
-    background-color: tomato;
-    border: 2px solid black;
-}
-
-
-
-
-/* HAMBURGER MENU */ /* HAMBURGER MENU */ /* HAMBURGER MENU */
-/* HAMBURGER MENU */ /* HAMBURGER MENU */ /* HAMBURGER MENU */
-/* HAMBURGER MENU */ /* HAMBURGER MENU */ /* HAMBURGER MENU */
-/* HAMBURGER MENU */ /* HAMBURGER MENU */ /* HAMBURGER MENU */
+/* HAMBURGER_MENU */
 
 :root {
-    --primary-color: rgba(24, 39, 51, 0.85);
+    --primary-color: rgba(24, 39, 51, 0.4);
     --overlay-color: rgba(24, 39, 51, 1);
     --menu-speed:0.75s;
 }
 
-/* HAMBURGER_MENU */
+body{
+    line-height: 1.4;
+}
 
 .menu-wrap {
-    position:fixed;
-    top:0;
-    left:0;
+    /* position:fixed; */
+    /* top:0; */
+    /* right:0; */
     z-index:1;
 }
 
 .menu-wrap .toggler{
     position:absolute;
     top:0;
-    left:0;
+    right:0;
     z-index:2;
     cursor:pointer;
     width:50px;
@@ -124,14 +52,14 @@ main {
 /* COLOR hamburger container here*/
 
 .menu-wrap .hamburger{
-    position:absolute;
+    /* position:absolute; */
     top:0;
-    left:0;
+    right:0;
     z-index:1;
     width: 60px;
     height:60px;
     padding:1rem;
-    background:var(--primary-color);
+    /* background:var(--primary-color); */
     display:flex;
     align-items:center;
     justify-content:center;
@@ -169,6 +97,7 @@ main {
 /* toggler animate */
 .menu-wrap .toggler:checked + .hamburger > div{
     transform: rotate(135deg);
+    z-index: 5;
 }
 
 /* turn lines into x */
@@ -248,6 +177,54 @@ main {
 
 }
 
-/* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU */
-/* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU */
-/* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU *//* END OF HAMBURGER MENU */
+.navigation-bar{
+    background-color: var(--primary-color);
+    width:100%;
+    height:60px;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* CONTENT */
+
+
+.section-1 main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-text {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 50vh;
+}
+
+
+.section-1 h2 {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.section-1 h2 span {
+    display: block;
+}
+
+.hero-text h1 {
+    margin-top: 2vh;
+}
+
+/* SELLING POINT - COLOR TYPES */
+
+.section-2 {
+
+}
+
+
