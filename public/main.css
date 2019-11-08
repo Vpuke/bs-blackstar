@@ -4,6 +4,13 @@
     margin:0;
 }
 
+/* APPLIES TO ALL SECTIONS */
+
+/* section {
+    height: 100vh;
+    width: 100vh;
+} */
+
 /* LANDING PAGE */
 
 .section-1{
@@ -59,8 +66,27 @@ main {
 /* SELLING POINT - COLOR TYPES */
 
 .section-2 {
-
+    height: 100vh;
+    width: 100vw;
 }
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.color-preview-card {
+    height: 100vh;
+    width: 100vw;
+    flex: 0 0 auto;
+    background-color: tomato;
+    border: 2px solid black;
+}
+
 
 
 
