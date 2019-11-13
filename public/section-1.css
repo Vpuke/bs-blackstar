@@ -4,6 +4,10 @@ main{
     font-family: aktivgrotesk-regular;
 }
 
+.section-1{
+ background-color:green;   
+}
+
 .section-1 main {
     display: flex;
     align-items: center;
