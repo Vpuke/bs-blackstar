@@ -21,12 +21,7 @@
     height: 100vh;
     width: 100vw;
     flex: 0 0 auto;
-    background-color: tomato;
-    scroll-snap-align: start;
-}
-
-.color-preview-card img {
-    width: 100%;
+    /* scroll-snap-align: start; */
 }
 
 .slide-bar {
@@ -99,4 +94,13 @@
 
 .hero-text h1 {
   margin-top: 2vh;
+}
+
+.section-2-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    object-fit: cover;
+    top: 0;
 }
