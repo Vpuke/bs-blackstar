@@ -8,17 +8,28 @@
     
 }
 
-.section-5-title{
-    display:flex;
+.section-5-wrapper {
+    /* height: 30vh; */
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
 }
-
-.section-5-logo{
-    display:flex;
-    justify-content:center;
-}
-
-.section-5-paragraph{
-    display:flex;
-    text-align: center;
-}
+.section-5-wrapper h2 {
+    color: whitesmoke;
+    margin-top: 10%;
+    border-bottom: 2px solid black;
+    }
+    
+    .section-5-wrapper p {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    
+    .section-5 img {
+        padding-top; 50%;
+        width: 100%;
+        background-size: contain;
+    }
