@@ -39,3 +39,45 @@
 
 /* SCROLL ICON INDICATOR */
 
+.mouse{
+    width: 100%;
+    height:100%;
+    margin: 50px auto;
+    
+}
+
+.mouse-icon{
+    width: 25px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    left:45%;
+    top: 90%;
+}
+
+.mouse-wheel{
+    height: 6px;
+    margin: 2px auto 0;
+    display: block;
+    width: 3px;
+    background-color:black;
+    border-radius: 50%;
+    animation: 1.6s ease infinite wheel-up-down;
+}
+
+@keyframes wheel-up-down{
+    0%{
+        margin-top:2x;
+        opacity:0;
+    }
+    30%{
+        opacity:1;
+    }
+    100%{
+        margin-top: 20px;
+        opacity:0;
+    }
+}
