@@ -1,7 +1,7 @@
 /* HAMBURGER_MENU */
 
 :root {
-    --primary-color: rgba(24, 39, 51, 0.1);
+    --primary-color: rgba(24, 39, 51, 0);
     --overlay-color: rgba(24, 39, 51, 1);
     --menu-speed:0.75s;
 }
@@ -26,6 +26,7 @@ body{
     width:60px;
     height:60px;
     opacity:0;
+    
   
 
 }
@@ -188,6 +189,10 @@ aside{
     text-decoration:none;
     color:black;
     text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 5%;
+    padding:5px;
+    
     
  
 }
