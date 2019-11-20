@@ -1,3 +1,24 @@
 .section-5{
     background-color:hotpink;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right:20px;
+    
+}
+
+.section-5-title{
+    display:flex;
+    text-align: center;
+}
+
+.section-5-logo{
+    display:flex;
+    justify-content:center;
+}
+
+.section-5-paragraph{
+    display:flex;
+    text-align: center;
 }
