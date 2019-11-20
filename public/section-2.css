@@ -33,7 +33,7 @@
 .slide-bar {
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
     width: 100%;
 }
 
@@ -95,8 +95,6 @@
     padding:10px;
     width:70%;
     margin-left:15%;
-    
-    
     
 }
 
