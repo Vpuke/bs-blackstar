@@ -1,3 +1,44 @@
+@font-face {
+    font-family: aktivgrotesk-regular;
+    src: url("/fonts-grotesk/AktivGrotesk-Regular.otf"); /* Fungere ej */
+}
+
 .section-3{
-    background-color:purple;
+    font-family: aktivgrotesk-regular;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #CBCBC9 0%, rgba(172, 172, 172, 0.479167) 52.08%, rgba(178, 178, 178, 0) 100%);
+}
+
+.section-3-wrapper {
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.section-3-wrapper h2 {
+color: whitesmoke;
+margin-top: 10%;
+border-bottom: 2px solid black;
+}
+
+.section-3-wrapper p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+
+.section-3 img {
+    padding-top; 50%;
+    width: 100%;
+    background-size: contain;
 }
