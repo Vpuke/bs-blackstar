@@ -1,11 +1,22 @@
 /* LANDING PAGE CONTENT */
 
+@font-face {
+    font-family: aktivgrotesk-bold;
+    src: url("/fonts-grotesk/AktivGrotesk-Bold.otf");
+    font-family: aktivgrotesk-light;
+    src: url("/fonts-grotesk/AktivGrotesk-Light.otf");
+    font-family: aktivgrotesk-medium;
+    src: url("/fonts-grotesk/AktivGrotesk-Medium.otf");
+    font-family: aktivgrotesk-regular;
+    src: url("/fonts-grotesk/AktivGrotesk-Regular.otf");
+  }
+
 main{
     font-family: aktivgrotesk-regular;
 }
 
 .section-1{
- background-color:green;   
+ /* background-color:green;    */
 }
 
 .section-1 main {
@@ -27,4 +38,11 @@ main{
     display: block;
 }
 
+.section-1-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    object-fit: cover;
+}
 
