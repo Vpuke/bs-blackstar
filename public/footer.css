@@ -23,11 +23,17 @@ footer {
 
 .input-container{
 border: 1px solid black;
-padding: 8px;
-width:70%;
+padding: 10px;
+width:60%;
 border-radius: 5px;
+}
 
-
+.icon{
+    padding:10px;
+    background: black;
+    color: white;
+    min-width: 50px;
+    text-align: center;
 }
 
 input{
@@ -35,12 +41,22 @@ input{
     outline:none;
 }
 
+input.submit-container{
+    background-color: black;
+}
 
 .submit-container{
 border: 1px solid black;
 padding:8px;
 margin-top:15px;
 border-radius: 5px;
+color: white;
+opacity: 0.6;
+}
+
+.submit-container:hover{
+    background-color:black;
+    opacity: 1;
 }
 
 
