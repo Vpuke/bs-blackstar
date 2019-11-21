@@ -16,9 +16,31 @@ footer {
     border-bottom: 1px solid black;
     margin-top: 20px;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
+}
+
+.input-container{
+border: 1px solid black;
+padding: 8px;
+width:70%;
+border-radius: 5px;
+
+
+}
+
+input{
+    text-align:center;
+    outline:none;
+}
+
+
+.submit-container{
+border: 1px solid black;
+padding:8px;
+margin-top:15px;
+border-radius: 5px;
 }
 
 
