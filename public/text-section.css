@@ -1,14 +1,12 @@
-.text-section{
+.text-section {
     height: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: linear-gradient(180deg, #CBCBC9 0%, rgba(172, 172, 172, 0.479167) 52.08%, rgba(178, 178, 178, 0) 100%);
-
 }
 
 .text-section-wrapper {
-    /* height: 30vh; */
     width: 90%;
     display: flex;
     align-items: center;
