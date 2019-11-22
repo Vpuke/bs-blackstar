@@ -1,4 +1,24 @@
-.section-3 img {
+/* .section-3 img {
     width: 100%;
+<<<<<<< HEAD
     background-size: contain;
+=======
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
+
+.section-3 {
+    overflow: hidden;
+    position: relative;
+    height: 50vh;
+}
+
+.section-3 img {
+    position: absolute;
+    height: 100vh;
+    min-width:100%;
+>>>>>>> 25ca02763d400e6a03903378de3859bd7b041a77
 }

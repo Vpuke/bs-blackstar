@@ -39,3 +39,18 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+// Parallax function 
+
+$(document).ready(function() {
+  var onScroll = function() {
+    var scrollTop = $(this).scrollTop();
+    $('.section-3').each(function(index, elem) {
+      var $elem = $(elem);
+      $elem.find('img').css('top', scrollTop - $elem.offset().top);
+    });
+  };
+  onScroll.apply(window);
+  $(window).on('scroll', onScroll);
+});
