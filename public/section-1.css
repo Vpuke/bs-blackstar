@@ -6,10 +6,6 @@
     font-family: aktivgrotesk-regular;
 }
 
-.section-1{
- /* background-color:green;    */
-}
-
 .section-1-content {
     display: flex;
     align-items: center;
@@ -87,10 +83,34 @@
     }
 }
 
-/* change language button */
+
+/* language button */
 
 .language-btn {
     position: absolute;
-    margin-left: 68%;
-    appearance: none;
+    margin-left: 65%;
+    padding: 5px 7px 5px 5px;
+    background: transparent;
+    background-image: url('icons/downArrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10px;
+    
 }
+
+.language-btn select {
+    background: transparent;
+    width: 46px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+
+
