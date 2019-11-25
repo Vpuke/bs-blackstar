@@ -1,10 +1,8 @@
 
-.section-7{
-    background-color:white;
-}
 
 footer {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -21,6 +19,12 @@ footer {
     margin-top:20px;
 
 }
+
+.child img{
+    height:50px;
+    width:50px;
+}
+
 
 
 /* FOOTER SECTION 2  */
@@ -73,6 +77,9 @@ opacity: 0.6;
     background-color:black;
     opacity: 1;
 }
+
+/* FOOTER SECTION 1 SLIDESHOW */
+
 
 
 /* FOOTER SECTION 3  */
