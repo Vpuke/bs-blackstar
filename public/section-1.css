@@ -83,3 +83,11 @@
         opacity:0;
     }
 }
+
+/* change language button */
+
+.language-btn {
+    position: absolute;
+    margin-left: 68%;
+    appearance: none;
+}
