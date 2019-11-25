@@ -20,10 +20,17 @@ footer {
 
 }
 
-.child img{
-    height:50px;
-    width:50px;
+.slideshow-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
 }
+.slideshow-container img{
+    height:100px;
+    width:100px;
+}
+
 
 
 
