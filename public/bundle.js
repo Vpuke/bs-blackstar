@@ -40,6 +40,13 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+// FUNCTION TO CLOSE NAVIGATION BAR ON
 
+const navigationToggler = document.querySelector(".menu-wrap .toggler");
+const navigationItems = document.querySelectorAll(".menu a");
 
-
+navigationItems.forEach(item => {
+  item.addEventListener('click', () =>{
+    navigationToggler.checked = false;
+  });
+});
