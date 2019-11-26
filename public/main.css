@@ -14,13 +14,27 @@
 
 * {
     box-sizing:border-box;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 	padding:0;
     margin:0;
    
 }
 
-/* APPLIES TO ALL SECTIONS */
+h1 {
+    font-family: aktivgrotesk-bold;
+}
+
+h2 {
+    font-family: aktivgrotesk-medium;
+}
+
+h4 {
+    font-family: aktivgrotesk-light;
+}
+
+p {
+    font-family: aktivgrotesk-regular;
+}
 
 section {
     height: 100vh;
