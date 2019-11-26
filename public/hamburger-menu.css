@@ -201,3 +201,7 @@ aside{
     border-radius: 5%;
     padding:5px;
 }
+
+.reserve-button p{
+    margin-top:3px;
+}
