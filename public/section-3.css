@@ -20,6 +20,16 @@
     margin-top: 48px;
 }
 
+.section-3-header:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 44%;
+    padding-top: 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
 .section-3 p {
 margin: 10px;
 }
@@ -36,7 +46,7 @@ margin: 10px;
     border-radius: 4px;
 }
 
-section-3 a {
+.section-3 a {
     text-decoration: none;
     color: white
 }

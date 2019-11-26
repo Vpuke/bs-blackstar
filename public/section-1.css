@@ -1,11 +1,6 @@
 /* LANDING PAGE CONTENT */
 
 
-
-.section-1-content{
-    font-family: aktivgrotesk-regular;
-}
-
 .section-1-content {
     display: flex;
     align-items: center;
@@ -19,7 +14,6 @@
 .section-1 h2 {
     margin-top: 15vh;
     text-align: center;
-    font-family: aktivgrotesk-medium;
     letter-spacing: 4px;
     font-size: 22px;
     color:white;
@@ -47,13 +41,6 @@
     letter-spacing:4px;
 }
 
-.section-2-content h4{
-    font-family: aktivgrotesk-light;
-}
-
-.section-2-content h1{
-    font-family: aktivgrotesk-bold;
-}
 
 /* SCROLL ICON INDICATOR */
 
