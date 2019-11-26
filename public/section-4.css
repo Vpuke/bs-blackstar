@@ -1,13 +1,14 @@
-/* .section-4 img {
-    width: 100%;
+.parallax {
     height: 100%;
+    width: auto;
+    background-image: url("./images/motion.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    object-fit: cover;
-} */
+    background-size: cover;
+}
 
-.section-4 {
+/* .section-4 {
     overflow: hidden;
     position: relative;
     height: 50vh;
@@ -16,7 +17,7 @@
 .section-4 img {
     position: absolute;
     height: 100vh;
-    min-width:100%;
+    min-width:100%; */
     /* object-fit: cover;
     object-position: center; */
-}
+/* } */
