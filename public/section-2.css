@@ -101,6 +101,6 @@
     width: 100%;
     position: absolute;
     z-index: -5;
-    object-fit: contain;
+    object-fit: cover;
     top: 0;
 }
