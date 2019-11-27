@@ -42,6 +42,9 @@
     width: 100%;
     height:10%;
     margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -53,7 +56,6 @@
     cursor: pointer;
     position: relative;
     text-align: center;
-    left:45%;
     top: 25%;
 }
 
@@ -145,15 +147,6 @@
         object-fit: cover;
     }
 
-    /* .mobile-hero-text {
-        display: none;
-    }
-
-    .desktop-hero-text {
-        display: block;
-        font-size: 80px;
-    } */
-
     .section-1 h2 {
         font-size: 56px;
         font-family: aktivgrotesk-regular;
@@ -163,6 +156,12 @@
         font-size: 56px;
     }
 
+    @media all and (min-width: 768px) {
+        .language-btn {
+            margin-left: 85%;
+        }
+
+    }
 
 }
 
