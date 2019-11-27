@@ -18,18 +18,44 @@
 
 .section-5 h2 {
     margin-top: 48px;
+    width:80vw;
 }
 
 .section-5-header:after {
     content: "";
     display: block;
-    margin: 0 auto;
-    width: 44%;
+    width: 48%;
     padding-top: 0px;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
 }
 
 .section-5 p {
-margin: 43px;
+margin: 10%;
+}
+
+.learn-more{
+    width: 170px;
+    height: 44px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.section-5 a {
+    text-decoration: none;
+    color: white
+}
+
+.button-section-5{
+    width:80vw;
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10% auto;
 }
