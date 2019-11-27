@@ -75,12 +75,53 @@
 
 /* NUMBER TEXT ON PICTURES / CARD FRAMES */
 
+.section-2 .image-mobile {
+  display:block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  object-fit: cover;
+  top: 0;
+}
+.section-2 .image-desktop {
+  display:none
+}
 
-.section-2-img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -5;
-    object-fit: cover;
-    top: 0;
+.mobile.wrap {
+  display: block;
+}
+
+.desktop-wrap {
+  display: none;
+}
+
+@media all and (min-width: 768px) {
+  .section-2 .image-mobile {
+      display: none;
+  }
+  .section-2 .image-desktop {
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -5;
+      object-fit: cover;
+      top: 0;
+  }
+
+  .mobile-wrap {
+    display: none;
+  }
+  
+  .desktop-wrap {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .color-selection-text {
+  
+  }
+
 }

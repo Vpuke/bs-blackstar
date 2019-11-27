@@ -23,14 +23,6 @@
     display: block;
 }
 
-.section-1-img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: -5;
-    object-fit: cover;
-}
-
 .section-2-content{
     height:50vh;
     display:flex;
@@ -117,4 +109,30 @@
 
 
 
+
+.section-1 .image-mobile {
+    display:block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -5;
+    object-fit: cover;
+}
+.section-1 .image-desktop {
+    display:none
+}
+
+@media all and (min-width: 768px) {
+    .section-1 .image-mobile {
+        display: none;
+    }
+    .section-1 .image-desktop {
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -5;
+        object-fit: cover;
+    }
+}
 
