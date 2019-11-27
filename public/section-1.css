@@ -12,10 +12,10 @@
 
 
 .section-1 h2 {
+    width:80vw;
     display:flex;
     flex-direction: column;
     margin-top: 15vh;
-    margin-left: -5vh;
     text-align: start;
     letter-spacing: 4px;
     font-size: 22px;
@@ -30,7 +30,7 @@
     content: "";
     display: block;
     margin: 0;
-    width: 99%;
+    width: 54%;
     padding-top: 0px;
     border-bottom: 2px solid white;
     margin-bottom: 10px;
