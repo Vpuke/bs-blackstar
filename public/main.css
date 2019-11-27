@@ -2,13 +2,15 @@
 
 @font-face {
     font-family: aktivgrotesk-bold;
-    src: url("/fonts-grotesk/AktivGrotesk-Bold.otf");
+    src: url("/fonts/AktivGrotesk-Bold.otf");
     font-family: aktivgrotesk-light;
-    src: url("/fonts-grotesk/AktivGrotesk-Light.otf");
+    src: url("/fonts/AktivGrotesk-Light.otf");
     font-family: aktivgrotesk-medium;
-    src: url("/fonts-grotesk/AktivGrotesk-Medium.otf");
+    src: url("/fonts/AktivGrotesk-Medium.otf");
     font-family: aktivgrotesk-regular;
-    src: url("/fonts-grotesk/AktivGrotesk-Regular.otf");
+    src: url("/fonts/AktivGrotesk-Regular.otf");
+    font-family: oxanium-regular;
+    src: url("/fonts/Oxanium-Regular.ttf");
   }
 
 
@@ -21,7 +23,7 @@
 }
 
 h1 {
-    font-family: aktivgrotesk-bold;
+    font-family: oxanium-regular;
 }
 
 h2 {

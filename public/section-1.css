@@ -13,8 +13,6 @@
 
 .section-1 h2 {
     width:80vw;
-    display:flex;
-    flex-direction: column;
     margin-top: 15vh;
     text-align: start;
     letter-spacing: 4px;
@@ -24,17 +22,6 @@
 
 .section-1 h2 span {
     display: block;
-}
-
-.section-1 h2::after{
-    content: "";
-    display: block;
-    margin: 0;
-    width: 54%;
-    padding-top: 0px;
-    border-bottom: 2px solid white;
-    margin-bottom: 10px;
-    
 }
 
 .section-2-content{
@@ -137,6 +124,14 @@
     display:none
 }
 
+.mobile-hero-text {
+    display: block;
+}
+
+.desktop-hero-text {
+    display: none;
+}
+
 @media all and (min-width: 768px) {
     .section-1 .image-mobile {
         display: none;
@@ -150,8 +145,24 @@
         object-fit: cover;
     }
 
-    .section-1 h2 span {
-        display: flex;
+    /* .mobile-hero-text {
+        display: none;
     }
+
+    .desktop-hero-text {
+        display: block;
+        font-size: 80px;
+    } */
+
+    .section-1 h2 {
+        font-size: 56px;
+        font-family: aktivgrotesk-regular;
+    }
+
+    .section-1 h1 {
+        font-size: 56px;
+    }
+
+
 }
 
