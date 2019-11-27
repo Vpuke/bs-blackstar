@@ -1,37 +1,13 @@
+.section-4 {
+    height: 60vh;
+}
+
 .parallax {
     height: 100%;
     width: auto;
-    background-image: url("./images/motion.png");
+    background-image: url("./images/PARALLAX.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
-}
-
-.section-4-text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-}
-
-.section-4 h2 {
-    margin-top: 48px;
-}
-
-.section-4-header:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: 44%;
-    padding-top: 0px;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
-}
-
-.section-4 p {
-margin: 10px;
-text-align: center;
 }
