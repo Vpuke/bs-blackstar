@@ -117,11 +117,24 @@
   .desktop-wrap {
     display: block;
     display: flex;
-    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
   }
 
   .color-selection-text {
-  
+    margin-bottom: 20px;
   }
+
+  .color-selection-text h2:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 0px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
 
 }
