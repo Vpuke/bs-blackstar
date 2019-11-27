@@ -149,5 +149,9 @@
         z-index: -5;
         object-fit: cover;
     }
+
+    .section-1 h2 span {
+        display: flex;
+    }
 }
 
