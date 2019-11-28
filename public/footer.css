@@ -85,7 +85,7 @@ color: black;
 }
 
 .submit-container:hover{
-    background-color:black;
+    background-color:#F1F1F1;
     opacity: 1;
 }
 
@@ -137,3 +137,42 @@ justify-content: center;
     height:30px;
 }
 
+@media all and (min-width: 768px){
+
+    /* FOOTER SECTION 1 */
+    
+
+    
+    /* FOOTER SECTION 2 */
+    
+    .footer-section-2 h3{
+        font-size: 24px;
+    }
+
+    .input-container{
+        width: 300px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .submit-container{
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    /* FOOTER SECTION 3 */
+
+    .phone-container{
+        font-size: 24px;
+    }
+
+    .contact-container{
+        font-size: 24px;
+    }
+
+    .social-media-icon{
+        width: 60px;
+        height: 60px;
+    }
+}

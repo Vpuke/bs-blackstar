@@ -16,24 +16,25 @@
     <link rel='stylesheet' type='text/css' media='screen' href='section-5.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='section-6.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='footer.css'>
-
+    
 </head>
 <body>
     
     <!-- LANDING PAGE -->
+    <div class="scroller">
     <header class="section-1">
         
         <div id="navigation-bar">
             <a href="#afooter" class="reserve-button"><p>SIGN UP</p></a>
             <img class="nav-logo" src="./icons/logo_black.svg" alt="oldsmobile-icon">
-
+            
             <div class="language-btn">
-            <select>
-                <option>ENG</option>
-                <option>SWE</option>
-            </select>
+                <select>
+                    <option>ENG</option>
+                    <option>SWE</option>
+                </select>
             </div>
-
+            
             <div class="menu-wrap">
                 <input type="checkbox" class="toggler" id="menuToggle">
                 <div class="hamburger"><div></div></div>
@@ -53,7 +54,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="section-1-content">
             <div class="hero-text">
                 <h2 class="mobile-hero-text">THE NEXT<span>GIANT LEAP</span></h2>
@@ -61,131 +62,135 @@
             </div>
             <img class="image-mobile" src="./images/FIRSTPICTUREmobil.png" loading="lazy" alt="Blackstar motorcycle in a salt flats">
             <img class="image-desktop" src="./images/FIRSTIMAGEdesktop.png" loading="lazy" alt="Blackstar motorcycle in a salt flats">
-
+            
             <div class="section-2-content">
-          <h4>INTRODUCING</h4>
-          <h1>BLACKSTAR</h1>
+                <h4>INTRODUCING</h4>
+                <h1>BLACKSTAR</h1>
             </div>
-
+            
             <div class="mouse">
-                    <div class="mouse-icon">
-                      <span class="mouse-wheel"></span>
-                    </div>
+                <div class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </div>
             </div>
         </div>
-    
+        
     </header>
-
+    
     <!-- COLOR SCROLL PAGE -->
-    <section class="section-2" id="hues">
+    <section class="section-2 section-scroller" id="hues">
         <div class="mobile-wrap">
-        <div class="scrolling-wrapper">
-
-            <div class="color-preview-card">
-                <img class="image-mobile" src="images/BLUEmobil.png" loading="lazy" alt="Blackstar Neptune Color">
-                <div class="text-container-colors">
+                <div class="scrolling-wrapper">
+                    
+                    <div class="color-preview-card">
+                        <img class="image-mobile" src="images/BLUEmobil.png" loading="lazy" alt="Blackstar Neptune Color">
+                        <div class="text-container-colors">
+                            <h2>NEPTUNE</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="color-preview-card">
+                        <img class="image-mobile" src="images/VITmobil.png" loading="lazy" alt="Blackstar Milky Way Color">
+                        <div class="text-container-colors">
+                            <h2>MILKY WAY</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="color-preview-card">
+                        <img class="image-mobile" src="images/SVARTmobil.png" loading="lazy" alt="Blackstar Dark Matter Color">
+                        <div class="text-container-colors">
+                            <h2>DARK MATTER</h2>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                <div class="slide-bar">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            
+            <div class="desktop-wrap">
+                <div class="color-selection-text">
                     <h2>NEPTUNE</h2>
                 </div>
-            </div>
-
-            <div class="color-preview-card">
-                <img class="image-mobile" src="images/VITmobil.png" loading="lazy" alt="Blackstar Milky Way Color">
-                <div class="text-container-colors">
+                <div class="color-selection-text">
                     <h2>MILKY WAY</h2>
                 </div>
-            </div>
-
-            <div class="color-preview-card">
-                <img class="image-mobile" src="images/SVARTmobil.png" loading="lazy" alt="Blackstar Dark Matter Color">
-                <div class="text-container-colors">
+                <div class="color-selection-text">
                     <h2>DARK MATTER</h2>
                 </div>
             </div>
-
+            <img class="image-desktop" src="images/COLORdesktop.jpg" loading="lazy" alt="Blackstar motorcycles in different colors">
             
-        </div>
+        </section>
         
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- CONSTELLATION SECTION  -->
         
-        <div class="slide-bar">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        </div>
-        
-        <div class="desktop-wrap">
-            <div class="color-selection-text">
-                <h2>NEPTUNE</h2>
-            </div>
-            <div class="color-selection-text">
-                <h2>MILKY WAY</h2>
-            </div>
-            <div class="color-selection-text">
-                <h2>DARK MATTER</h2>
-            </div>
-        </div>
-        <img class="image-desktop" src="images/COLORdesktop.jpg" loading="lazy" alt="Blackstar motorcycles in different colors">
-
-    </section>
-
-    <!-- CONSTELLATION SECTION  -->
-    
-    <section class="section-3" id="tech">
-        <img class="image-mobile" src="images/MYRSLOKmobil.png" loading="lazy" alt="Blackstar motorcycle back view">
-        <img class="image-desktop" src="images/MYRSLOKdesktop.png" loading="lazy" alt="Blackstar motorcycle back view">
-        <div class="section-3-text">
-
-            <h2 class="section-3-header">CONSTELLATION</h2>
-
-            <div class="icon-section">
+        <section class="section-3 section-scroller" id="tech">
+            <img class="image-mobile" src="images/MYRSLOKmobil.png" loading="lazy" alt="Blackstar motorcycle back view">
+            <img class="image-desktop" src="images/MYRSLOKdesktop.png" loading="lazy" alt="Blackstar motorcycle back view">
+            <div class="section-3-text">
                 
-                    <img src="icons/acceleration.svg" alt="acceleration icon">
+                <h2 class="section-3-header">CONSTELLATION</h2>
+                
+                <div class="icon-section">
+                    
+                    <img src="icons/acceleration.svg" alt="acceleration icon" class="">
                     <p>0-60 mph in 2.9 seconds</p>
-                
-                
+                    
+                    
                     <img src="icons/engine.svg" alt="engine icon">
                     <p>Radial Flux motor <br> 490 mph top speed</p>
-                
-                
+                    
+                    
                     <img src="icons/battery.svg" alt="battery icon">
                     <p>7.2 kWh Nebula battery <br>Range: 200 miles</p>
-                
+                    
+                </div>
+                <button class="download"><a download href="downloads/Archive.zip">
+                    DOWNLOAD FOLDER
+                </a></button>
             </div>
             <button class="download"><a href="downloads/BlackstarBBP-Folder.pdf.zip" download>
                 DOWNLOAD FOLDER
               </a></button>
         </div>
+
+        </section>
         
-    </section>
-
-    <!-- PARALLAX SECTION  -->
-
-    <section class="section-4" id="paralax">
-
-        <div class="parallax"></div>
-
-    </section>
-
-    <!-- INTERIOR SECTION  -->
-
-    <section class="section-5" id="interior">
-
+        <!-- PARALLAX SECTION  -->
+        
+        <section class="section-4" id="paralax">
+            
+            <div class="parallax"></div>
+            
+        </section>
+        
+        <!-- INTERIOR SECTION  -->
+        
+        <section class="section-5 section-scroller" id="interior">
+            
             <img class="image-mobile" src="images/INTERIORmobil.png" loading="lazy" alt="Interior overview of the Blackstar motorcycle">
             <img class="image-desktop" src="images/INTERIORdesktop.png" loading="lazy" alt="Interior overview of the Blackstar motorcycle">
             <div class="section-5-text">
-
+                
                 <div class="section-5-underline"><h2 class="section-5-header">YOUR SPACE</h2>
                 </div>
                 <div class="section-5-paragraph">
                     <p>Dashboard unibody enhanced with custom 
-                    etched graphene. Encapsulated driver seat
-                    with multiple HD displays and easy to handle 
-                    steering</p>
+                        etched graphene. Encapsulated driver seat
+                        with multiple HD displays and easy to handle 
+                        steering</p>
+                    </div>
                 </div>
-                </div>
-
+                
                 <div class="button-section-5">
                     <button class="learn-more-5">
                         LEARN MORE
@@ -193,91 +198,92 @@
                 </div>
             </div>
         </div>
-
+        
     </section>
-
-    <!-- ABOUT SECTION  -->
-
-    </section>
-    <section class="section-6" id="about">
-
-            <img class="image-mobile" src="images/ASTRONAUTmobil.png" alt="Astronaut image">
-            <img class="image-desktop" src="images/ASTRONAUTdesktop.jpg" alt="Astronaut image">
-            <div class="section-6-text">
     
-                <div class="section-6-underline">
-                    <h2 class="section-6-header">GODSPEED</h2>
-                </div>
+    <!-- ABOUT SECTION  -->
+    
+</section>
+<section class="section-6 section-scroller" id="about">
+    
+    <img class="image-mobile" src="images/ASTRONAUTmobil.png" alt="Astronaut image">
+    <img class="image-desktop" src="images/ASTRONAUTdesktop.jpg" alt="Astronaut image">
+    <div class="section-6-text">
+        
+        <div class="section-6-underline">
+            <h2 class="section-6-header">GODSPEED</h2>
+        </div>
+        
+        <div class="section-6-paragraph">
+            <p>Oldsmobile - always a step ahead, back in 1971. 
+                Sixteen years later we reinvented speed with our 
+                recordbreaking series Aerotech.
+            </p>
+        </div>
+        
+        <div class="section-6-paragraph">
+            <p>Being ahead and breaking records is kind of our 
+                thing. The Blackstar is no exception.
+            </p>
+        </div>
+        
+        <div class="section-6-paragraph">
+            <p>At a top speed of 490mph the Blackstar introduces 
+                itself as the fastest electric vehicle on the planet.
+            </p>
+        </div>
+        
+        
+    </div>
+</div>
+<div class="button-section-6">
+    <button class="learn-more-6"><a download href="">
+        LEARN MORE
+    </a></button>
+</div>
 
-                <div class="section-6-paragraph">
-                    <p>Oldsmobile - always a step ahead, back in 1971. 
-                    Sixteen years later we reinvented speed with our 
-                    recordbreaking series Aerotech.
-                    </p>
-                </div>
+</section>
 
-                <div class="section-6-paragraph">
-                    <p>Being ahead and breaking records is kind of our 
-                    thing. The Blackstar is no exception.
-                    </p>
-                </div>
+<footer> 
+    <div class="footer-section-1">
+        <h3>BLACKWATCH</h3>
+        
+        <div class="slideshow-container">
+            <img src="./images/klockis.png" alt="Blackstar Smartwatch">
+        </div>
+    </div>
+    
+    
+    <div class="footer-section-2" id="afooter">
+        
+        <h3>SIGN UP TO <br> RESERVE YOUR BLACKSTAR</h3>
+        <form action="#">
+            <input type="text" name="email" placeholder="blackstar@blackstar.com" class="input-container">
+            <br>
+            <button type="submit" class="submit-container">RESERVE</button>
+        </form>
+        
+    </div>
+    
+    <div class="footer-section-3">
+        <div class="icon-container">
+            <a href="https://facebook.com"><img class="social-media-icon" src="./icons/FACEBOOKsocial.svg" alt="Faceook social media icon"></a>
+            <a href="https://instagram.com"><img class="social-media-icon" src="./icons/INSTAGRAMsocial.svg" alt="Instagram social media icon"></a>
+            <a href="https://youtube.com"><img class="social-media-icon" src="./icons/YOUTUBEsocial.svg" alt="Youtube social media icon"></a>
+            <a href="https://twitter.com"><img class="social-media-icon" src="./icons/TWITTERsocial.svg" alt="Twitter social media icon"></a>
+        </div>
+        <div class="phone-container">
+            <p><a href="tel:031-696969">+4631 - 69 69 69</a></p>
+        </div>
+        <div class="contact-container">
+            <a href="#."><p>Legal</p></a>
+            <a href="#."><p>Contact</p></a>
+        </div>
+    </div>
+    
+</footer>
 
-                <div class="section-6-paragraph">
-                    <p>At a top speed of 490mph the Blackstar introduces 
-                    itself as the fastest electric vehicle on the planet.
-                    </p>
-                </div>
-
-
-                    </div>
-                    <div class="button-section-6">
-                            <button class="learn-more-6">
-                                LEARN MORE
-                            </button>
-                        </div>
-                </div>
-
-    </section>
-   
-        <footer> 
-            <div class="footer-section-1">
-                <h3>BLACKWATCH</h3>
-
-                <div class="slideshow-container">
-                        <img src="./images/klockis.png" alt="Blackstar Smartwatch">
-                </div>
-            </div>
-
-
-            <div class="footer-section-2" id="afooter">
-
-                    <h3>SIGN UP TO <br> RESERVE YOUR BLACKSTAR</h3>
-                    <form action="#">
-                        <input type="text" name="email" placeholder="blackstar@blackstar.com" class="input-container">
-                        <br>
-                        <button type="submit" class="submit-container">RESERVE</button>
-                    </form>
- 
-            </div>
-
-            <div class="footer-section-3">
-                <div class="icon-container">
-                    <a href="https://facebook.com"><img class="social-media-icon" src="./icons/FACEBOOKsocial.svg" alt="Faceook social media icon"></a>
-                    <a href="https://instagram.com"><img class="social-media-icon" src="./icons/INSTAGRAMsocial.svg" alt="Instagram social media icon"></a>
-                    <a href="https://youtube.com"><img class="social-media-icon" src="./icons/YOUTUBEsocial.svg" alt="Youtube social media icon"></a>
-                    <a href="https://twitter.com"><img class="social-media-icon" src="./icons/TWITTERsocial.svg" alt="Twitter social media icon"></a>
-                </div>
-                <div class="phone-container">
-                    <p>Phone: 031 - 69 69 69</p>
-                </div>
-                <div class="contact-container">
-                    <a href="#."><p>Legal</p></a>
-                    <a href="#."><p>Contact</p></a>
-                </div>
-            </div>
-
-            </footer>
-   
-    <script src='bundle.js'></script>
+</div>
+<script src='bundle.js'></script>
 </body>
 </html>
