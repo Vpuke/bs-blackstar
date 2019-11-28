@@ -24,6 +24,15 @@
     /* scroll-snap-align: start; */
 }
 
+.text-container-colors{
+  width: 80vw;
+  height: 87vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left:10%;
+}
+
 .slide-bar {
     text-align: center;
     position: absolute;
@@ -127,7 +136,7 @@
     margin-bottom: 20px;
   }
 
-  .color-selection-text h2:after {
+  /* .color-selection-text h2:after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -135,6 +144,6 @@
     padding-top: 0px;
     border-bottom: 2px solid black;
     margin-bottom: 10px;
-}
+} */
 
 }

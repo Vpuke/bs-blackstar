@@ -6,6 +6,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: black;
 }
 
 /* FOOTER SECTION 1  */
@@ -16,8 +17,11 @@ footer {
     display:flex;
     flex-direction: column;
     text-align:center;
-    margin-top:20px;
+    color:white;
+}
 
+.footer-section-1 h3{
+    margin-top: 6%;
 }
 
 .slideshow-container{
@@ -27,8 +31,8 @@ footer {
     height: 25vh;
 }
 .slideshow-container img{
-    height:100px;
-    width:100px;
+    height: 120px;
+    width: 120px;
 }
 
 
@@ -40,11 +44,11 @@ footer {
 .footer-section-2{
     font-family: aktivgrotesk-light;
     height: calc(100%/3);
-    /* margin-top: 20px; */
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
+    background-color: white;
 }
 
 .input-container{
