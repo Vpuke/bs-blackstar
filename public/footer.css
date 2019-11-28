@@ -144,6 +144,16 @@ justify-content: center;
 
     
     /* FOOTER SECTION 2 */
+
+    .footer-section-1 h3 {
+        font-size: 24px;
+        margin-top: 1%;
+    }
+
+    .footer-section-1 img {
+        height: 180px;
+        width: 180px;
+    }
     
     .footer-section-2 h3{
         font-size: 24px;
