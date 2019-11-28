@@ -65,6 +65,10 @@
 
 @media all and (min-width: 768px) {
 
+    .section-3 .image-mobile {
+        display: none;
+    }
+
     .section-3 .image-desktop {
         display: block;
         width: 100%;
