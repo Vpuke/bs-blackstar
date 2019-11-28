@@ -61,3 +61,7 @@
     align-items: flex-end;
     margin: 10% auto;
 }
+
+@media all and (min-width: 768px) {
+    
+}
