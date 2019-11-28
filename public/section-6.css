@@ -17,17 +17,6 @@
     align-items: center;
 }
 
-
-
-.section-6-header::after{
-    content: "";
-    display: block;
-    width: 48%;
-    padding-top: 0px;
-    border-bottom: 2px solid black;
-    margin-bottom: 10px;
-}
-
 .section-6 h2 {
     margin-top: 48px;
     width:80vw;

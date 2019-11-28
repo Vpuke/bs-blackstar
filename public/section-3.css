@@ -42,18 +42,21 @@
 .download {
     width: 170px;
     height: 44px;
-    background-color: #010101;
-    color: white;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
     text-align: center;
     font-size: 16px;
     margin-top: 8%;
-    border-style: none;
     border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
 }
 
 .section-3 a {
     text-decoration: none;
-    color: white
+    color: black
 }
 
 .section-3 .image-desktop {
