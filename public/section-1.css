@@ -1,7 +1,6 @@
 /* LANDING PAGE CONTENT */
 
 .scroller{
-   
     scroll-snap-type: y mandatory;
     
 }
@@ -41,6 +40,7 @@
     text-align: start;
     color: white;
     letter-spacing:4px;
+    animation: fade-in 5s;
     
 }
 
@@ -137,6 +137,8 @@
 
 .mobile-hero-text {
     display: block;
+    animation: fade-in 1.5s;
+
 }
 
 .desktop-hero-text {
@@ -174,3 +176,4 @@
 
 }
 
+@keyframes fade-in { 0%{opacity: 0; transform: scale(0.95);} 100%{opacity:1; transform: scale(1);}}
