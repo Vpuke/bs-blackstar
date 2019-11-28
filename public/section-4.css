@@ -11,3 +11,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@media all and (min-width: 768px) {
+
+    .section-4 {
+        height: 80vh;
+    }
+
+    .parallax {
+        background-image: url("./images/PARALLAXdesktop.jpg");
+    }
+}
