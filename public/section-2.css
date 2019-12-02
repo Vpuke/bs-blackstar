@@ -17,11 +17,11 @@
     margin: auto;
 }
 /* PPREVIEW CARDS */
+
 .color-preview-card {
     height: 100vh;
     width: 100vw;
     flex: 0 0 auto;
-    /* scroll-snap-align: start; */
 }
 
 .text-container-colors{
@@ -40,8 +40,8 @@
     width: 100%;
 }
 
-
 /* PREVIEW SCROLL BULLETS */
+
 .dot {
     cursor: pointer;
     height: 20px;
@@ -51,13 +51,14 @@
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
+}
 
 .active, .dot:hover {
     background-color: #000;
-  }
+}
 
 /* NEXT AND PREVIOUS BUTTONS */
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -71,21 +72,21 @@
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
+}
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
 
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
-  }
+}
 
 /* NUMBER TEXT ON PICTURES / CARD FRAMES */
 
 .section-2 .image-mobile {
-  display:block;
+  display: block;
   height: 100%;
   width: 100%;
   position: absolute;
